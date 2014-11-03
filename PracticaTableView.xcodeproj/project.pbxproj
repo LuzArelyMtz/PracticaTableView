@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C12F92519F2A9C3006AC8A4 /* TECDetallePersonaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C12F92319F2A9C3006AC8A4 /* TECDetallePersonaViewController.m */; };
+		8C12F92619F2A9C3006AC8A4 /* TECDetallePersonaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C12F92419F2A9C3006AC8A4 /* TECDetallePersonaViewController.xib */; };
+		8C12F92919F2C6CB006AC8A4 /* TECAnimalesTableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C12F92819F2C6CB006AC8A4 /* TECAnimalesTableTableViewController.m */; };
 		8C15AF2819E96DA30064664B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C15AF2719E96DA30064664B /* Foundation.framework */; };
 		8C15AF2A19E96DA30064664B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C15AF2919E96DA30064664B /* CoreGraphics.framework */; };
 		8C15AF2C19E96DA30064664B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C15AF2B19E96DA30064664B /* UIKit.framework */; };
@@ -19,6 +22,38 @@
 		8C15AF4319E96DA30064664B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C15AF2B19E96DA30064664B /* UIKit.framework */; };
 		8C15AF4B19E96DA30064664B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8C15AF4919E96DA30064664B /* InfoPlist.strings */; };
 		8C15AF4D19E96DA30064664B /* PracticaTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C15AF4C19E96DA30064664B /* PracticaTableViewTests.m */; };
+		8C15AF5819E96DC10064664B /* TECItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C15AF5719E96DC10064664B /* TECItemsViewController.m */; };
+		8C15AF5B19E9713E0064664B /* TECPersona.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C15AF5A19E9713E0064664B /* TECPersona.m */; };
+		8C15AF5E19E973770064664B /* TECAlmacenPersona.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C15AF5D19E973770064664B /* TECAlmacenPersona.m */; };
+		8C25C3531A058A3F00E98F1C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C25C3521A058A3F00E98F1C /* AVFoundation.framework */; };
+		8C41A2AA19E980D0002B11CE /* foto0.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C41A29519E980D0002B11CE /* foto0.jpeg */; };
+		8C41A2AB19E980D0002B11CE /* foto1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C41A29619E980D0002B11CE /* foto1.jpeg */; };
+		8C41A2AC19E980D0002B11CE /* foto10.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C41A29719E980D0002B11CE /* foto10.jpeg */; };
+		8C41A2AD19E980D0002B11CE /* foto11.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C41A29819E980D0002B11CE /* foto11.jpeg */; };
+		8C41A2AE19E980D0002B11CE /* foto12.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C41A29919E980D0002B11CE /* foto12.jpeg */; };
+		8C41A2AF19E980D0002B11CE /* foto13.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C41A29A19E980D0002B11CE /* foto13.jpeg */; };
+		8C41A2B019E980D0002B11CE /* foto14.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C41A29B19E980D0002B11CE /* foto14.jpeg */; };
+		8C41A2B119E980D0002B11CE /* foto15.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C41A29C19E980D0002B11CE /* foto15.jpeg */; };
+		8C41A2B219E980D0002B11CE /* foto16.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C41A29D19E980D0002B11CE /* foto16.jpeg */; };
+		8C41A2B319E980D0002B11CE /* foto17.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C41A29E19E980D0002B11CE /* foto17.jpeg */; };
+		8C41A2B419E980D0002B11CE /* foto18.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C41A29F19E980D0002B11CE /* foto18.jpeg */; };
+		8C41A2B519E980D0002B11CE /* foto19.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C41A2A019E980D0002B11CE /* foto19.jpeg */; };
+		8C41A2B619E980D0002B11CE /* foto2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C41A2A119E980D0002B11CE /* foto2.jpeg */; };
+		8C41A2B719E980D0002B11CE /* foto20.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C41A2A219E980D0002B11CE /* foto20.jpeg */; };
+		8C41A2B819E980D0002B11CE /* foto3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C41A2A319E980D0002B11CE /* foto3.jpeg */; };
+		8C41A2B919E980D0002B11CE /* foto4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C41A2A419E980D0002B11CE /* foto4.jpeg */; };
+		8C41A2BA19E980D0002B11CE /* foto5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C41A2A519E980D0002B11CE /* foto5.jpeg */; };
+		8C41A2BB19E980D0002B11CE /* foto6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C41A2A619E980D0002B11CE /* foto6.jpeg */; };
+		8C41A2BC19E980D0002B11CE /* foto7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C41A2A719E980D0002B11CE /* foto7.jpeg */; };
+		8C41A2BD19E980D0002B11CE /* foto8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C41A2A819E980D0002B11CE /* foto8.jpeg */; };
+		8C41A2BE19E980D0002B11CE /* foto9.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C41A2A919E980D0002B11CE /* foto9.jpeg */; };
+		8C41A2C019E98E72002B11CE /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C41A2BF19E98E72002B11CE /* HeaderView.xib */; };
+		8C8BBEAF1A0585630061439F /* Shakira.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8C8BBEAE1A0585630061439F /* Shakira.jpg */; };
+		8C8BBEB11A05856A0061439F /* David.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8C8BBEB01A05856A0061439F /* David.jpg */; };
+		8C8BBEB31A0585760061439F /* David.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8C8BBEB21A0585760061439F /* David.mp3 */; };
+		8C8BBEB51A05857C0061439F /* Shakira.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8C8BBEB41A05857C0061439F /* Shakira.mp3 */; };
+		8C8BBEB91A0587C60061439F /* ReproductorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8BBEB71A0587C60061439F /* ReproductorViewController.m */; };
+		8C8BBEBA1A0587C60061439F /* ReproductorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C8BBEB81A0587C60061439F /* ReproductorViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +67,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8C12F92219F2A9C3006AC8A4 /* TECDetallePersonaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TECDetallePersonaViewController.h; sourceTree = "<group>"; };
+		8C12F92319F2A9C3006AC8A4 /* TECDetallePersonaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TECDetallePersonaViewController.m; sourceTree = "<group>"; };
+		8C12F92419F2A9C3006AC8A4 /* TECDetallePersonaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TECDetallePersonaViewController.xib; sourceTree = "<group>"; };
+		8C12F92719F2C6B3006AC8A4 /* TECAnimalesTableTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TECAnimalesTableTableViewController.h; sourceTree = "<group>"; };
+		8C12F92819F2C6CB006AC8A4 /* TECAnimalesTableTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TECAnimalesTableTableViewController.m; sourceTree = "<group>"; };
 		8C15AF2419E96DA30064664B /* PracticaTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticaTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C15AF2719E96DA30064664B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8C15AF2919E96DA30064664B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +88,42 @@
 		8C15AF4819E96DA30064664B /* PracticaTableViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PracticaTableViewTests-Info.plist"; sourceTree = "<group>"; };
 		8C15AF4A19E96DA30064664B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8C15AF4C19E96DA30064664B /* PracticaTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PracticaTableViewTests.m; sourceTree = "<group>"; };
+		8C15AF5619E96DC10064664B /* TECItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TECItemsViewController.h; sourceTree = "<group>"; };
+		8C15AF5719E96DC10064664B /* TECItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TECItemsViewController.m; sourceTree = "<group>"; };
+		8C15AF5919E9713E0064664B /* TECPersona.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TECPersona.h; sourceTree = "<group>"; };
+		8C15AF5A19E9713E0064664B /* TECPersona.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TECPersona.m; sourceTree = "<group>"; };
+		8C15AF5C19E973770064664B /* TECAlmacenPersona.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TECAlmacenPersona.h; sourceTree = "<group>"; };
+		8C15AF5D19E973770064664B /* TECAlmacenPersona.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TECAlmacenPersona.m; sourceTree = "<group>"; };
+		8C25C3521A058A3F00E98F1C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8C41A29519E980D0002B11CE /* foto0.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foto0.jpeg; sourceTree = "<group>"; };
+		8C41A29619E980D0002B11CE /* foto1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foto1.jpeg; sourceTree = "<group>"; };
+		8C41A29719E980D0002B11CE /* foto10.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foto10.jpeg; sourceTree = "<group>"; };
+		8C41A29819E980D0002B11CE /* foto11.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foto11.jpeg; sourceTree = "<group>"; };
+		8C41A29919E980D0002B11CE /* foto12.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foto12.jpeg; sourceTree = "<group>"; };
+		8C41A29A19E980D0002B11CE /* foto13.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foto13.jpeg; sourceTree = "<group>"; };
+		8C41A29B19E980D0002B11CE /* foto14.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foto14.jpeg; sourceTree = "<group>"; };
+		8C41A29C19E980D0002B11CE /* foto15.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foto15.jpeg; sourceTree = "<group>"; };
+		8C41A29D19E980D0002B11CE /* foto16.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foto16.jpeg; sourceTree = "<group>"; };
+		8C41A29E19E980D0002B11CE /* foto17.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foto17.jpeg; sourceTree = "<group>"; };
+		8C41A29F19E980D0002B11CE /* foto18.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foto18.jpeg; sourceTree = "<group>"; };
+		8C41A2A019E980D0002B11CE /* foto19.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foto19.jpeg; sourceTree = "<group>"; };
+		8C41A2A119E980D0002B11CE /* foto2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foto2.jpeg; sourceTree = "<group>"; };
+		8C41A2A219E980D0002B11CE /* foto20.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foto20.jpeg; sourceTree = "<group>"; };
+		8C41A2A319E980D0002B11CE /* foto3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foto3.jpeg; sourceTree = "<group>"; };
+		8C41A2A419E980D0002B11CE /* foto4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foto4.jpeg; sourceTree = "<group>"; };
+		8C41A2A519E980D0002B11CE /* foto5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foto5.jpeg; sourceTree = "<group>"; };
+		8C41A2A619E980D0002B11CE /* foto6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foto6.jpeg; sourceTree = "<group>"; };
+		8C41A2A719E980D0002B11CE /* foto7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foto7.jpeg; sourceTree = "<group>"; };
+		8C41A2A819E980D0002B11CE /* foto8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foto8.jpeg; sourceTree = "<group>"; };
+		8C41A2A919E980D0002B11CE /* foto9.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foto9.jpeg; sourceTree = "<group>"; };
+		8C41A2BF19E98E72002B11CE /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		8C8BBEAE1A0585630061439F /* Shakira.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Shakira.jpg; sourceTree = "<group>"; };
+		8C8BBEB01A05856A0061439F /* David.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = David.jpg; sourceTree = "<group>"; };
+		8C8BBEB21A0585760061439F /* David.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = David.mp3; sourceTree = "<group>"; };
+		8C8BBEB41A05857C0061439F /* Shakira.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Shakira.mp3; sourceTree = "<group>"; };
+		8C8BBEB61A0587C60061439F /* ReproductorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReproductorViewController.h; sourceTree = "<group>"; };
+		8C8BBEB71A0587C60061439F /* ReproductorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReproductorViewController.m; sourceTree = "<group>"; };
+		8C8BBEB81A0587C60061439F /* ReproductorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReproductorViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +131,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C25C3531A058A3F00E98F1C /* AVFoundation.framework in Frameworks */,
 				8C15AF2A19E96DA30064664B /* CoreGraphics.framework in Frameworks */,
 				8C15AF2C19E96DA30064664B /* UIKit.framework in Frameworks */,
 				8C15AF2819E96DA30064664B /* Foundation.framework in Frameworks */,
@@ -77,6 +154,9 @@
 		8C15AF1B19E96DA30064664B = {
 			isa = PBXGroup;
 			children = (
+				8C8BBEAD1A05853D0061439F /* musica */,
+				8C8BBEAC1A0585340061439F /* imagenes */,
+				8C41A29419E980D0002B11CE /* imgsCaritas */,
 				8C15AF2D19E96DA30064664B /* PracticaTableView */,
 				8C15AF4619E96DA30064664B /* PracticaTableViewTests */,
 				8C15AF2619E96DA30064664B /* Frameworks */,
@@ -96,6 +176,7 @@
 		8C15AF2619E96DA30064664B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8C25C3521A058A3F00E98F1C /* AVFoundation.framework */,
 				8C15AF2719E96DA30064664B /* Foundation.framework */,
 				8C15AF2919E96DA30064664B /* CoreGraphics.framework */,
 				8C15AF2B19E96DA30064664B /* UIKit.framework */,
@@ -107,10 +188,25 @@
 		8C15AF2D19E96DA30064664B /* PracticaTableView */ = {
 			isa = PBXGroup;
 			children = (
+				8C12F92819F2C6CB006AC8A4 /* TECAnimalesTableTableViewController.m */,
+				8C12F92719F2C6B3006AC8A4 /* TECAnimalesTableTableViewController.h */,
 				8C15AF3619E96DA30064664B /* AppDelegate.h */,
 				8C15AF3719E96DA30064664B /* AppDelegate.m */,
+				8C12F92219F2A9C3006AC8A4 /* TECDetallePersonaViewController.h */,
+				8C12F92319F2A9C3006AC8A4 /* TECDetallePersonaViewController.m */,
+				8C8BBEB61A0587C60061439F /* ReproductorViewController.h */,
+				8C8BBEB71A0587C60061439F /* ReproductorViewController.m */,
+				8C8BBEB81A0587C60061439F /* ReproductorViewController.xib */,
+				8C12F92419F2A9C3006AC8A4 /* TECDetallePersonaViewController.xib */,
 				8C15AF3919E96DA30064664B /* Images.xcassets */,
 				8C15AF2E19E96DA30064664B /* Supporting Files */,
+				8C15AF5619E96DC10064664B /* TECItemsViewController.h */,
+				8C15AF5719E96DC10064664B /* TECItemsViewController.m */,
+				8C41A2BF19E98E72002B11CE /* HeaderView.xib */,
+				8C15AF5919E9713E0064664B /* TECPersona.h */,
+				8C15AF5A19E9713E0064664B /* TECPersona.m */,
+				8C15AF5C19E973770064664B /* TECAlmacenPersona.h */,
+				8C15AF5D19E973770064664B /* TECAlmacenPersona.m */,
 			);
 			path = PracticaTableView;
 			sourceTree = "<group>";
@@ -142,6 +238,52 @@
 				8C15AF4919E96DA30064664B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8C41A29419E980D0002B11CE /* imgsCaritas */ = {
+			isa = PBXGroup;
+			children = (
+				8C41A29519E980D0002B11CE /* foto0.jpeg */,
+				8C41A29619E980D0002B11CE /* foto1.jpeg */,
+				8C41A29719E980D0002B11CE /* foto10.jpeg */,
+				8C41A29819E980D0002B11CE /* foto11.jpeg */,
+				8C41A29919E980D0002B11CE /* foto12.jpeg */,
+				8C41A29A19E980D0002B11CE /* foto13.jpeg */,
+				8C41A29B19E980D0002B11CE /* foto14.jpeg */,
+				8C41A29C19E980D0002B11CE /* foto15.jpeg */,
+				8C41A29D19E980D0002B11CE /* foto16.jpeg */,
+				8C41A29E19E980D0002B11CE /* foto17.jpeg */,
+				8C41A29F19E980D0002B11CE /* foto18.jpeg */,
+				8C41A2A019E980D0002B11CE /* foto19.jpeg */,
+				8C41A2A119E980D0002B11CE /* foto2.jpeg */,
+				8C41A2A219E980D0002B11CE /* foto20.jpeg */,
+				8C41A2A319E980D0002B11CE /* foto3.jpeg */,
+				8C41A2A419E980D0002B11CE /* foto4.jpeg */,
+				8C41A2A519E980D0002B11CE /* foto5.jpeg */,
+				8C41A2A619E980D0002B11CE /* foto6.jpeg */,
+				8C41A2A719E980D0002B11CE /* foto7.jpeg */,
+				8C41A2A819E980D0002B11CE /* foto8.jpeg */,
+				8C41A2A919E980D0002B11CE /* foto9.jpeg */,
+			);
+			path = imgsCaritas;
+			sourceTree = "<group>";
+		};
+		8C8BBEAC1A0585340061439F /* imagenes */ = {
+			isa = PBXGroup;
+			children = (
+				8C8BBEB01A05856A0061439F /* David.jpg */,
+				8C8BBEAE1A0585630061439F /* Shakira.jpg */,
+			);
+			name = imagenes;
+			sourceTree = "<group>";
+		};
+		8C8BBEAD1A05853D0061439F /* musica */ = {
+			isa = PBXGroup;
+			children = (
+				8C8BBEB41A05857C0061439F /* Shakira.mp3 */,
+				8C8BBEB21A0585760061439F /* David.mp3 */,
+			);
+			name = musica;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,8 +361,36 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C41A2B019E980D0002B11CE /* foto14.jpeg in Resources */,
+				8C41A2B219E980D0002B11CE /* foto16.jpeg in Resources */,
+				8C41A2BC19E980D0002B11CE /* foto7.jpeg in Resources */,
+				8C41A2C019E98E72002B11CE /* HeaderView.xib in Resources */,
+				8C41A2B919E980D0002B11CE /* foto4.jpeg in Resources */,
 				8C15AF3219E96DA30064664B /* InfoPlist.strings in Resources */,
+				8C41A2B619E980D0002B11CE /* foto2.jpeg in Resources */,
+				8C41A2B319E980D0002B11CE /* foto17.jpeg in Resources */,
+				8C8BBEBA1A0587C60061439F /* ReproductorViewController.xib in Resources */,
+				8C41A2AA19E980D0002B11CE /* foto0.jpeg in Resources */,
+				8C8BBEAF1A0585630061439F /* Shakira.jpg in Resources */,
+				8C41A2AE19E980D0002B11CE /* foto12.jpeg in Resources */,
+				8C41A2BE19E980D0002B11CE /* foto9.jpeg in Resources */,
+				8C12F92619F2A9C3006AC8A4 /* TECDetallePersonaViewController.xib in Resources */,
+				8C41A2BB19E980D0002B11CE /* foto6.jpeg in Resources */,
+				8C41A2AF19E980D0002B11CE /* foto13.jpeg in Resources */,
+				8C41A2AC19E980D0002B11CE /* foto10.jpeg in Resources */,
+				8C41A2B719E980D0002B11CE /* foto20.jpeg in Resources */,
+				8C41A2AD19E980D0002B11CE /* foto11.jpeg in Resources */,
+				8C41A2BA19E980D0002B11CE /* foto5.jpeg in Resources */,
+				8C41A2B819E980D0002B11CE /* foto3.jpeg in Resources */,
+				8C8BBEB11A05856A0061439F /* David.jpg in Resources */,
+				8C41A2BD19E980D0002B11CE /* foto8.jpeg in Resources */,
+				8C8BBEB51A05857C0061439F /* Shakira.mp3 in Resources */,
+				8C41A2B519E980D0002B11CE /* foto19.jpeg in Resources */,
+				8C41A2B119E980D0002B11CE /* foto15.jpeg in Resources */,
+				8C41A2B419E980D0002B11CE /* foto18.jpeg in Resources */,
 				8C15AF3A19E96DA30064664B /* Images.xcassets in Resources */,
+				8C41A2AB19E980D0002B11CE /* foto1.jpeg in Resources */,
+				8C8BBEB31A0585760061439F /* David.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,8 +409,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C12F92519F2A9C3006AC8A4 /* TECDetallePersonaViewController.m in Sources */,
 				8C15AF3819E96DA30064664B /* AppDelegate.m in Sources */,
+				8C15AF5E19E973770064664B /* TECAlmacenPersona.m in Sources */,
 				8C15AF3419E96DA30064664B /* main.m in Sources */,
+				8C15AF5819E96DC10064664B /* TECItemsViewController.m in Sources */,
+				8C15AF5B19E9713E0064664B /* TECPersona.m in Sources */,
+				8C8BBEB91A0587C60061439F /* ReproductorViewController.m in Sources */,
+				8C12F92919F2C6CB006AC8A4 /* TECAnimalesTableTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +619,7 @@
 				8C15AF5219E96DA30064664B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8C15AF5319E96DA30064664B /* Build configuration list for PBXNativeTarget "PracticaTableViewTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +628,7 @@
 				8C15AF5519E96DA30064664B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

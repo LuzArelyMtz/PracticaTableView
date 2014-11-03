@@ -8,12 +8,34 @@
 
 #import "AppDelegate.h"
 
+#import "TECItemsViewController.h"
+#import "TECAnimalesTableTableViewController.h"
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    
+    TECItemsViewController *itemsViewController=[[TECItemsViewController alloc]init];
+    
+    
+    TECAnimalesTableTableViewController *animalesViewController = [[TECAnimalesTableTableViewController alloc]init];
+    /*UINavigationController *navController = [[UINavigationController alloc]
+                                             initWithRootViewController:animalesViewController];*/
+    
+    
+    UINavigationController *navController = [[UINavigationController alloc]
+                                             initWithRootViewController:itemsViewController];
+    
+    
+    [[self window]setRootViewController:navController];
+    
+    //[[self window]setRootViewController:itemsViewController];
+    
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
