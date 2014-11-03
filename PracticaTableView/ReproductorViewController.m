@@ -181,7 +181,7 @@
         [self obtenerCancion:@"Shakira" album:@"shakira.jpg"];
         //obtenerCancion(@"Shakira",@"shakira.jpg");
     }else if(index == 1){
-        [self obtenerCancion:@"David" album:@"guetta.jpg"];
+        [self obtenerCancion:@"David" album:@"David.jpg"];
         //obtenerCancion(@"David",@@"David");
     }
     

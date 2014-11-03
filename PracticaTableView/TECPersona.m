@@ -18,15 +18,9 @@
     int edad;
     
     NSArray *randomNombres = @[@"Shakira", @"David"];
-    
-    NSArray *randomApPaternos = @[@"Salcedo", @"Vázquez", @"Pérez",
-                                  @"López", @"Gómez"];
-    
+   
     NSInteger index = arc4random() % [randomNombres count];
     nombre = randomNombres[index];
-    
-    index = arc4random() % [randomApPaternos count];
-    apPaterno = randomApPaternos[index];
    
     
     edad = arc4random() % 80;
@@ -65,14 +59,11 @@
 
 
 -(instancetype) initWithNombre:(NSString *)nombre
-                     apPaterno:(NSString *)ap edad:(int) edad
                           foto:(UIImage *)foto
 {
     self = [self init];
     if (self) {
         _nombre = nombre;
-        _apPaterno = ap;
-        _edad = edad;
         _rutaImagen=foto;
         
     }
@@ -86,7 +77,7 @@
 {
     NSString *desc = [[NSString alloc] initWithFormat:
                       @"Nombre : %@ %@ - Edad: %d -Imagen: %@ -Fecha Alta: %@",
-                      [self nombre], [self apPaterno], [self edad],
+                      [self nombre], 
                       [self rutaImagen],
                       [self fechaAlta]];
     return desc;

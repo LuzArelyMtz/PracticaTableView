@@ -27,11 +27,14 @@
 
 +(instancetype) personaAleatoria;
 
--(instancetype) initWithNombre:(NSString *)nombre
+-(id) initWithNombre:(NSString *)nombre
                      apPaterno:(NSString *)ap
                           edad:(int) edad
                           foto:(UIImage *)foto;
 
+
+-(instancetype) initWithNombre:(NSString *)nombre
+                          foto:(UIImage *)foto;
 //crear un constructor nuevo o utilizar el mismo pero agregandole la foto 
 
 @end
