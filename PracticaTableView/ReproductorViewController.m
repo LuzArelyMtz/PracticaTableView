@@ -42,6 +42,8 @@
     NSString *str2 = [[NSString alloc] initWithFormat:(NSString *)@"%@%@",[persona nombre], extension];
     NSLog(@"Ruta imagen :  %@", str2);
     
+    //Esta linea permite que se aprecie la vista completa. 
+    self.navigationController.navigationBar.translucent = NO;
     
     //NSString *joinedFromLiterals = [persona nombre] , @".jpg" ;
     
